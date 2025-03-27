@@ -12,54 +12,63 @@
     
 </head>
 <body class="bg-black text-white">
-    <div class="flex container mx-auto my-4">
-        <div class="first w-[70%]">
-            
-        <div class="logo invert my-4">
+    <div class="flex md:container mx-auto my-4">
+
+<!-- first div -->
+
+        <div class="first w-16 md:w-[70%] ">
+
+
+        <div class="sidebar flex md:items-end flex-col sticky top-0">
+                       
+        <div class="logo invert my-4 self-start mx-2 md:mx-16">
             <svg viewBox="0 0 24 24" aria-hidden="true" class=" w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
         </div>
 
-        <div class="sidebar flex items-end flex-col">
-           
-
-                <ul class="flex flex-col text-xl space-y-3 px-11 font-bold">
-                    <li class="flex justify-start items-center gap-3 
-                     hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit "><span class="text-4xl material-symbols-outlined ">
+                <ul class="flex flex-col text-xl space-y-3 md:px-11 font-bold w-full">
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 
+                     hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 md:w-fit "><span class="text-4xl material-symbols-outlined ">
                         home
              
-                    </span>Home</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"> <span class="text-4xl material-symbols-outlined">
+                    </span><span class = "hidden md:block">Home</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"> <span class="text-4xl material-symbols-outlined">
                         search
-                        </span>Explore</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="text-4xl material-symbols-outlined">
+                        </span><span class = "hidden md:block">Explore</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="text-4xl material-symbols-outlined">
                         notifications
-                        </span>Notification</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Notification</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         mail
-                        </span>Messages</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Messages</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         home
-                        </span>Grok</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Grok</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         group
-                        </span>Communities</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Communities</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         verified
-                        </span>Premium</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Premium</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         bolt
-                        </span>Verified Orgs</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Verified Orgs</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         person
-                        </span>Profile</li>
-                    <li class="flex justify-start items-center gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
+                        </span><span class = "hidden md:block">Profile</span></li>
+                    <li class="flex md:justify-start items-center justify-center mr-4 gap-3 hover:bg-gray-900 hover:rounded-full hover:cursor-pointer px-5 py-3 w-fit"><span class="material-symbols-outlined text-4xl">
                         
                         more
-                        </span>More</li>
+                        </span><span class = "hidden md:block">More</span></li>
 
                         <li>
                             <div class="button w-full text-center my-4">
-                                <button class="bg-blue-600 text-white px-20 text-xl rounded-full py-3">Post</button>
+                                <button class="bg-blue-600 text-white px-20 text-xl rounded-full py-3 hidden md:block">Post</button>
+
+                                <button class="bg-blue-600 text-white  text-xl rounded-full px-2 py-1 md:hidden"> <span class="material-symbols-outlined">
+                                    edit
+                                    </span></button>
+
+                               
                             </div>
                         </li>
                 </ul>
@@ -71,8 +80,8 @@
 
              <!-- Middle div -->
 
-        <div class="second w-full border-[1px] border-x-white border-y-black">
-            <div class="top flex justify-around p-3 relative">
+        <div class="second w-full border-[1px] border-x-gray-500 border-y-black">
+            <div class="top flex justify-around p-3 bg-black sticky top-0">
                 <div class="absolute w-16 h-1 rounded-full bg-blue-500 bottom-0 left-[19%] z-10"></div>
                 <div class="left font-bold text-lg ">For you</div>
                 <div class="right font-bold text-lg">Following</div>
@@ -138,10 +147,10 @@
                     <div class="content my-3">
                         <span class="text-gray-500">@xpression_app</span>
                         <div>Wow</div>
-                        <div class="posting m-4 ml-0 border">
-                            <img src="https://pbs.twimg.com/media/Gm51nrMWUAEhwFK?format=jpg&name=small" alt="">
+                        <div class="posting m-4 ml-0">
+                            <img class="rounded-xl" src="https://pbs.twimg.com/media/Gm51nrMWUAEhwFK?format=jpg&name=small" alt="">
                         </div>
-                        <div class="icons flex bg-red-500 mx-3">
+                        <div class="icons flex justify-around mx-3">
                             <div class="icon flex items-center justify-center">
                                <span class="material-symbols-outlined">
                                    chat_bubble
@@ -159,6 +168,12 @@
                                     favorite
                                     </span> 5k 
                              </div>
+
+                             <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    bar_chart_4_bars
+                                    </span> 5k 
+                             </div>
                        </div>
                     </div>
                 </div>
@@ -166,12 +181,109 @@
                
             </div>
             </div>
+            <hr>
+
+            
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                    <div class="image m-4">
+                        <img class = "w-16 rounded-full"
+                         src="https://pbs.twimg.com/profile_images/1753446409054097408/Kj-T3m7Y_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="text-gray-500">@xpression_app</span>
+                        <div>Wow</div>
+                        <div class="posting m-4 ml-0">
+                            <img class="rounded-xl" src="https://pbs.twimg.com/media/Gm51nrMWUAEhwFK?format=jpg&name=small" alt="">
+                        </div>
+                        <div class="icons flex justify-around mx-3">
+                            <div class="icon flex items-center justify-center">
+                               <span class="material-symbols-outlined">
+                                   chat_bubble
+                                   </span> 3k 
+                            </div>
+
+                            <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    repeat
+                                    </span> 1.8k 
+                             </div>
+
+                             <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    favorite
+                                    </span> 5k 
+                             </div>
+
+                             <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    bar_chart_4_bars
+                                    </span> 5k 
+                             </div>
+                       </div>
+                    </div>
+                </div>
+
+               
+            </div>
+            </div>
+            <hr>
+
+            
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                    <div class="image m-4">
+                        <img class = "w-16 rounded-full"
+                         src="https://pbs.twimg.com/profile_images/1753446409054097408/Kj-T3m7Y_bigger.jpg" alt="">
+                    </div>
+                    <div class="content my-3">
+                        <span class="text-gray-500">@xpression_app</span>
+                        <div>Wow</div>
+                        <div class="posting m-4 ml-0">
+                            <img class="rounded-xl" src="https://pbs.twimg.com/media/Gm51nrMWUAEhwFK?format=jpg&name=small" alt="">
+                        </div>
+                        <div class="icons flex justify-around mx-3">
+                            <div class="icon flex items-center justify-center">
+                               <span class="material-symbols-outlined">
+                                   chat_bubble
+                                   </span> 3k 
+                            </div>
+
+                            <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    repeat
+                                    </span> 1.8k 
+                             </div>
+
+                             <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    favorite
+                                    </span> 5k 
+                             </div>
+
+                             <div class="icon flex items-center justify-center">
+                                <span class="material-symbols-outlined">
+                                    bar_chart_4_bars
+                                    </span> 5k 
+                             </div>
+                       </div>
+                    </div>
+                </div>
+
+               
+            </div>
+            </div>
+            <hr>
            
         </div>
         
             <!-- third div -->
 
-        <div class="third w-full">
+          <div class="third w-full hidden md:block ">
+            <div class="sticky top-0">
+
             <div class="search m-3">
                 <input type="text" placeholder="Search" class="w-[70%] rounded-full bg-gray-900 text-white px-4 py-2" >
 
@@ -217,6 +329,7 @@
                  </div>                     
      
                  </div>
+                </div>
 
 
         </div>
